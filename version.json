@@ -2,10 +2,12 @@
   "latest": "1.7-pre3",
   "latest-pre": "1.7-pre3",
   "versions": {
+    "reserved": 0,
     "1.7-pre2": 1,
     "1.7-pre3": 2
   },
   "blocked": [
+    0,
     1
   ]
 }
