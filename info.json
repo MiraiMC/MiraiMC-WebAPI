@@ -1,10 +1,15 @@
 {
   "mirai": {
     "stable": "2.11.1",
-    "0": "2.10.0"
+    "0": "2.11.1"
   },
   "announcement": [
     "这是一条测试公告",
     "用于成品演示"
+  ],
+  "apis": [
+    "https://api.miraimc.dreamvoid.me/",
+    "https://api.miraimc.dreamvoid.ml/",
+    "https://miraimc-webapi.pages.dev/"
   ]
 }
