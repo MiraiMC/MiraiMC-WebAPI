@@ -4,8 +4,8 @@
     "0": "2.11.1"
   },
   "announcement": [
-    "这是一条测试公告",
-    "用于成品演示"
+    "1.7-pre3 真的发布了，快去更新吧。",
+    "Github、Gitee已同步发布。"
   ],
   "apis": [
     "https://api.miraimc.dreamvoid.me/",
