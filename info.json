@@ -1,0 +1,16 @@
+{
+  "mirai": {
+    "stable": "2.14.0",
+    "6": "2.13.2",
+    "5": "2.11.1"
+  },
+  "announcement": [
+    "1.8-pre1 已发布，支持短信验证码登录，并修复了多个 Bug。",
+    "如有需要可更新使用。"
+  ],
+  "apis": [
+    "https://api.miraimc.dreamvoid.me/",
+    "https://api.miraimc.dreamvoid.ml/",
+    "https://miraimc-webapi.pages.dev/"
+  ]
+}
