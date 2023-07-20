@@ -1,16 +1,15 @@
 {
   "mirai": {
-    "stable": "2.15.0-RC",
+    "stable": "2.15.0",
     "6": "2.13.2",
     "5": "2.11.1"
   },
   "announcement": [
-    "1.8-pre2 已支持 mirai 2.15.0-M1 的扫码登录",
+    "1.8-rc1 已发布，为 Folia 提供了支持。",
     "如有需要可更新使用。"
   ],
   "apis": [
     "https://api.miraimc.dreamvoid.me/",
-    "https://api.miraimc.dreamvoid.ml/",
     "https://miraimc-webapi.pages.dev/"
   ]
 }
