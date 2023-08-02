@@ -4,10 +4,7 @@
     "6": "2.13.2",
     "5": "2.11.1"
   },
-  "announcement": [
-    "1.8-rc1 已发布，为 Folia 提供了支持。",
-    "如有需要可更新使用。"
-  ],
+  "announcement": [],
   "apis": [
     "https://api.miraimc.dreamvoid.me/",
     "https://miraimc-webapi.pages.dev/"
