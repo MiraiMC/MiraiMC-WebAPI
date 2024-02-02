@@ -5,7 +5,9 @@
     "5": "2.11.1"
   },
   "announcement": [
-    "1.8.1 正式版已发布，修复了多个 bug"
+    "1.8.2 正式版已发布，祝各位春节愉快",
+    "可前往 Modrinth 页面获取更新：",
+    "https://modrinth.com/plugin/miraimc"
   ],
   "apis": [
     "https://api.miraimc.dreamvoid.me/",
