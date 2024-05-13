@@ -5,9 +5,11 @@
     "5": "2.11.1"
   },
   "announcement": [
-    "MCBBS已死，不知道各位服主有什么质量高的宣传途径",
-    "欢迎来 GitHub 讨论页讨论：",
-    "https://github.com/DreamVoid/MiraiMC/discussions"
+    "现已确认 Paper 1.20.5 及以上服务端会修改插件",
+    "来适配 Paper 新加的 shit 一样的反混淆，",
+    "并且除非重新编译服务端否则无法关闭此功能，",
+    "这会导致插件无法正常工作甚至无法工作。",
+    "如果你使用 Paper 服务端，现在更新到 1.20.5 及以上可能不太明智。"
   ],
   "apis": [
     "https://api.miraimc.dreamvoid.me/",
