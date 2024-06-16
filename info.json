@@ -5,7 +5,9 @@
     "5": "2.11.1"
   },
   "announcement": [
-    "1.9-pre1 已发布，即将为非官方mirai核心提供支持"
+    "1.9-pre1 已发布，即将为非官方mirai核心提供支持",
+    "如果你对 Onebot 感兴趣，欢迎尝试对接第三方 mirai 核心 Overflow：",
+    "https://github.com/DreamVoid/MiraiMCAddon-Overflow/releases/tag/v1.0"
   ],
   "apis": [
     "https://api.miraimc.dreamvoid.me/",
