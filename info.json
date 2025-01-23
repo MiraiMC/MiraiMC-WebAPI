@@ -11,6 +11,7 @@
   ],
   "apis": [
     "https://api.miraimc.dreamvoid.me/",
+    "https://api-netlify.miraimc.dreamvoid.me/",
     "https://miraimc-webapi.pages.dev/"
   ]
 }
