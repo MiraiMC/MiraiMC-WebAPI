@@ -1,7 +1,7 @@
 {
-  "latest": "1.9",
-  "latest-pre": "1.9",
-  "latest-unstable": "1.9",
+  "latest": "1.9.1",
+  "latest-pre": "1.9.1",
+  "latest-unstable": "1.9.1",
   "versions": {
     "reserved": 0,
     "1.7-pre2": 1,
