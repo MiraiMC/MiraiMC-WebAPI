@@ -6,8 +6,11 @@
     "0": "2.16.0"
   },
   "announcement": [
-    "1.9 已发布，已支持 Overflow 核心。",
-    "如果你对 Onebot 感兴趣，欢迎尝试对接第三方 mirai 核心 Overflow。"
+    "MiraiMC 将改用 Java 17 作为开发环境，",
+    "许多插件，如 ViaVersion，已更激进的使用了 Java 21，",
+    "没有合适的理由继续停留在 Java 8。",
+    "请做好升级准备，尤其是 Minecraft 1.12.2 及以下版本，",
+    "MiraiMC 1.10 开始将不再支持 Java 8。"
   ],
   "apis": [
     "https://api.miraimc.dreamvoid.me/",
