@@ -14,7 +14,11 @@
   ],
   "apis": [
     "https://api.miraimc.dreamvoid.me/",
+    "https://api-edgeone.miraimc.dreamvoid.me/",
     "https://api-netlify.miraimc.dreamvoid.me/",
-    "https://miraimc-webapi.pages.dev/"
+    "https://api-vercel.miraimc.dreamvoid.me/",
+    "https://miraimc-webapi.pages.dev/",
+    "https://miraimc-webapi.netlify.app/",
+    "https://miraimc-webapi.vercel.app/"
   ]
 }
