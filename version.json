@@ -1,7 +1,7 @@
 {
   "latest": "1.9.2",
-  "latest-pre": "1.9.2",
-  "latest-unstable": "1.9.2",
+  "latest-pre": "1.10-pre1",
+  "latest-unstable": "1.10-pre1",
   "versions": {
     "reserved": 0,
     "1.7-pre2": 1,
@@ -25,7 +25,8 @@
     "1.9-rc2": 19,
     "1.9": 20,
     "1.9.1": 21,
-    "1.9.2": 22
+    "1.9.2": 22,
+    "1.10-pre1": 23
   },
   "blocked": [
     0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
