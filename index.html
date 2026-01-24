@@ -1,6 +1,48 @@
 <html lang="zh">
   <body>
     MiraiMC API Page.<br>
-    <a href="https://github.com/DreamVoid/MiraiMC">GitHub</a>
+    <a href="https://github.com/DreamVoid/MiraiMC">GitHub</a> | <a href="https://docs.miraimc.dreamvoid.me">文档</a>
+    <div id="statusContainer"></div>
+
+    <script>
+      const urlsToCheck = [
+        'https://api.miraimc.dreamvoid.me',
+        'https://api-github.miraimc.dreamvoid.me',
+        'https://api-vercel.miraimc.dreamvoid.me',
+        'https://api-netlify.miraimc.dreamvoid.me',
+        'https://api-edgeone.miraimc.dreamvoid.me'
+      ];
+
+      async function checkUrlReachability(url) {
+        try {
+          const startTime = performance.now();
+          const response = await fetch(url, { method: 'HEAD', mode: 'no-cors' });
+          const endTime = performance.now();
+          const latency = Math.round(endTime - startTime);
+          return { success: true, latency: latency };
+        } catch (error) {
+          return { success: false, error: error.message };
+        }
+      }
+
+      async function checkAllUrls() {
+        const container = document.getElementById('statusContainer');
+        container.innerHTML = '';
+
+        for (const url of urlsToCheck) {
+          const result = await checkUrlReachability(url);
+          const div = document.createElement('div');
+
+          if (result.success) {
+            div.innerHTML = `${url}: <span style="color: green;">${result.latency}ms</span>`;
+          } else {
+            div.innerHTML = `${url}: <span style="color: red;">${result.error}</span>`;
+          }
+
+          container.appendChild(div);
+        }
+      }
+      window.addEventListener('load', checkAllUrls);
+    </script>
   </body>
 </html>
